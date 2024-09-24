@@ -711,8 +711,8 @@
                     if(e.fields["ID"] == "KBC1"){
                       window.location.href = "soul-integration.html"
                   }
-                    if(e.fields["ID"] == "KBC2"){
-                        window.location.href = "slide-puzzle-master/index.html"
+                    if(e.fields["ID"] == "KBC4"){
+                        window.location.href = "locker-integration.html"
                     }
 
 
