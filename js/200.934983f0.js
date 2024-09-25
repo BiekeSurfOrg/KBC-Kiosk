@@ -714,7 +714,9 @@
                     if(e.fields["ID"] == "KBC4"){
                         window.location.href = "locker-integration.html"
                     }
-
+                    if(e.fields["ID"] == "KBC2"){
+                      window.location.href = "teams-integration.html"
+                  }
 
                     if (e.fields["3D_Content"]) {
                       if (e.fields["3D_Content"].includes("autodesk?"))
