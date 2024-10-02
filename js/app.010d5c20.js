@@ -269,11 +269,11 @@
           }
           initSettings() {
             let e =
-              "Title,Thumbnail,Content,3D_Content,is_screenshot_page,HTML,Order,Parent,Nested Children,ID,Loop_Video,Activation Vids Muted,Background Vids Muted,Feedback Videos,tilesPerPage,inactiveState.enabled,inactiveState.play_random_tile,inactiveState.screensaver,Screensaver Duration in Minutes,Screensaver Vids Muted,inactiveState.go_to_home_page,inactiveState.milliseconds,differentBGOnNested,feedbackPageEnabled,use_CSV,Border Color,Text Color\r\nAsk soul dockstore,KBC-Dance.png,KBC-Dance.mp4,,,,,,,KBC1,FALSE,TRUE,TRUE,,8,TRUE,FALSE,TRUE,5,TRUE,FALSE,60000,TRUE,FALSE,TRUE,#00AEEF,#FFFFFF\r\nCall a dockstore agent,KBC-Animation.png,Dragon.mp4,,,,,,,KBC2,FALSE,,,,,,,,,,,,,FALSE,,,\r\nGet your hardware,KBC-Willem.png,KBC-Animation.mp4,,,,,,,KBC4,FALSE,,,,,,,,,,,,,FALSE,,,"
+              "Title,Thumbnail,Content,3D_Content,is_screenshot_page,HTML,Order,Parent,Nested Children,ID,Loop_Video,Activation Vids Muted,Background Vids Muted,Feedback Videos,tilesPerPage,inactiveState.enabled,inactiveState.play_random_tile,inactiveState.screensaver,Screensaver Duration in Minutes,Screensaver Vids Muted,inactiveState.go_to_home_page,inactiveState.milliseconds,differentBGOnNested,feedbackPageEnabled,use_CSV,Border Color,Text Color\r\nAsk soul dockstore,KBC-Dance.png,KBC-Dance.mp4,,,,,,,KBC1,FALSE,TRUE,TRUE,,8,TRUE,FALSE,TRUE,5,TRUE,FALSE,60000,TRUE,FALSE,TRUE,#00AEEF,#FFFFFF\r\nCall a dockstore agent,test.png,Dragon.mp4,,,,,,,KBC2,FALSE,,,,,,,,,,,,,FALSE,,,\r\nGet your hardware,KBC-Willem.png,KBC-Animation.mp4,,,,,,,KBC4,FALSE,,,,,,,,,,,,,FALSE,,,"
                 .split("\r\n")[0]
                 .split(","),
               t =
-                "Title,Thumbnail,Content,3D_Content,is_screenshot_page,HTML,Order,Parent,Nested Children,ID,Loop_Video,Activation Vids Muted,Background Vids Muted,Feedback Videos,tilesPerPage,inactiveState.enabled,inactiveState.play_random_tile,inactiveState.screensaver,Screensaver Duration in Minutes,Screensaver Vids Muted,inactiveState.go_to_home_page,inactiveState.milliseconds,differentBGOnNested,feedbackPageEnabled,use_CSV,Border Color,Text Color\r\nAsk soul dockstore,KBC-Dance.png,KBC-Dance.mp4,,,,,,,KBC1,FALSE,TRUE,TRUE,,8,TRUE,FALSE,TRUE,5,TRUE,FALSE,60000,TRUE,FALSE,TRUE,#00AEEF,#FFFFFF\r\nCall a dockstore agent,KBC-Animation.png,Dragon.mp4,,,,,,,KBC2,FALSE,,,,,,,,,,,,,FALSE,,,\r\nGet your hardware,KBC-Willem.png,KBC-Animation.mp4,,,,,,,KBC4,FALSE,,,,,,,,,,,,,FALSE,,,"
+                "Title,Thumbnail,Content,3D_Content,is_screenshot_page,HTML,Order,Parent,Nested Children,ID,Loop_Video,Activation Vids Muted,Background Vids Muted,Feedback Videos,tilesPerPage,inactiveState.enabled,inactiveState.play_random_tile,inactiveState.screensaver,Screensaver Duration in Minutes,Screensaver Vids Muted,inactiveState.go_to_home_page,inactiveState.milliseconds,differentBGOnNested,feedbackPageEnabled,use_CSV,Border Color,Text Color\r\nAsk soul dockstore,KBC-Dance.png,KBC-Dance.mp4,,,,,,,KBC1,FALSE,TRUE,TRUE,,8,TRUE,FALSE,TRUE,5,TRUE,FALSE,60000,TRUE,FALSE,TRUE,#00AEEF,#FFFFFF\r\nCall a dockstore agent,test.png,Dragon.mp4,,,,,,,KBC2,FALSE,,,,,,,,,,,,,FALSE,,,\r\nGet your hardware,KBC-Willem.png,KBC-Animation.mp4,,,,,,,KBC4,FALSE,,,,,,,,,,,,,FALSE,,,"
                   .split("\r\n")[1]
                   .split(",");
             return new Promise((n) => {
@@ -324,13 +324,13 @@
                   .split("\r\n")[0]
                   .split(","),
                 o =
-                  "Title,Thumbnail,Content,3D_Content,is_screenshot_page,HTML,Order,Parent,Nested Children,ID,Loop_Video,Activation Vids Muted,Background Vids Muted,Feedback Videos,tilesPerPage,inactiveState.enabled,inactiveState.play_random_tile,inactiveState.screensaver,Screensaver Duration in Minutes,Screensaver Vids Muted,inactiveState.go_to_home_page,inactiveState.milliseconds,differentBGOnNested,feedbackPageEnabled,use_CSV,Border Color,Text Color\r\nAsk soul dockstore,KBC-Dance.png,KBC-Dance.mp4,,,,,,,KBC1,FALSE,TRUE,TRUE,,8,TRUE,FALSE,TRUE,5,TRUE,FALSE,60000,TRUE,FALSE,TRUE,#00AEEF,#FFFFFF\r\nCall a dockstore agent,KBC-Animation.png,Dragon.mp4,,,,,,,KBC2,FALSE,,,,,,,,,,,,,FALSE,,,\r\nGet your hardware,KBC-Willem.png,KBC-Animation.mp4,,,,,,,KBC4,FALSE,,,,,,,,,,,,,FALSE,,,".split(
+                  "Title,Thumbnail,Content,3D_Content,is_screenshot_page,HTML,Order,Parent,Nested Children,ID,Loop_Video,Activation Vids Muted,Background Vids Muted,Feedback Videos,tilesPerPage,inactiveState.enabled,inactiveState.play_random_tile,inactiveState.screensaver,Screensaver Duration in Minutes,Screensaver Vids Muted,inactiveState.go_to_home_page,inactiveState.milliseconds,differentBGOnNested,feedbackPageEnabled,use_CSV,Border Color,Text Color\r\nAsk soul dockstore,KBC-Dance.png,KBC-Dance.mp4,,,,,,,KBC1,FALSE,TRUE,TRUE,,8,TRUE,FALSE,TRUE,5,TRUE,FALSE,60000,TRUE,FALSE,TRUE,#00AEEF,#FFFFFF\r\nCall a dockstore agent,test.png,Dragon.mp4,,,,,,,KBC2,FALSE,,,,,,,,,,,,,FALSE,,,\r\nGet your hardware,KBC-Willem.png,KBC-Animation.mp4,,,,,,,KBC4,FALSE,,,,,,,,,,,,,FALSE,,,".split(
                     "\r\n"
                   );
               (i.ZP.prototype.$videos = o
                 .splice(
                   1,
-                  "Title,Thumbnail,Content,3D_Content,is_screenshot_page,HTML,Order,Parent,Nested Children,ID,Loop_Video,Activation Vids Muted,Background Vids Muted,Feedback Videos,tilesPerPage,inactiveState.enabled,inactiveState.play_random_tile,inactiveState.screensaver,Screensaver Duration in Minutes,Screensaver Vids Muted,inactiveState.go_to_home_page,inactiveState.milliseconds,differentBGOnNested,feedbackPageEnabled,use_CSV,Border Color,Text Color\r\nAsk soul dockstore,KBC-Dance.png,KBC-Dance.mp4,,,,,,,KBC1,FALSE,TRUE,TRUE,,8,TRUE,FALSE,TRUE,5,TRUE,FALSE,60000,TRUE,FALSE,TRUE,#00AEEF,#FFFFFF\r\nCall a dockstore agent,KBC-Animation.png,Dragon.mp4,,,,,,,KBC2,FALSE,,,,,,,,,,,,,FALSE,,,\r\nGet your hardware,KBC-Willem.png,KBC-Animation.mp4,,,,,,,KBC4,FALSE,,,,,,,,,,,,,FALSE,,,"
+                  "Title,Thumbnail,Content,3D_Content,is_screenshot_page,HTML,Order,Parent,Nested Children,ID,Loop_Video,Activation Vids Muted,Background Vids Muted,Feedback Videos,tilesPerPage,inactiveState.enabled,inactiveState.play_random_tile,inactiveState.screensaver,Screensaver Duration in Minutes,Screensaver Vids Muted,inactiveState.go_to_home_page,inactiveState.milliseconds,differentBGOnNested,feedbackPageEnabled,use_CSV,Border Color,Text Color\r\nAsk soul dockstore,KBC-Dance.png,KBC-Dance.mp4,,,,,,,KBC1,FALSE,TRUE,TRUE,,8,TRUE,FALSE,TRUE,5,TRUE,FALSE,60000,TRUE,FALSE,TRUE,#00AEEF,#FFFFFF\r\nCall a dockstore agent,test.png,Dragon.mp4,,,,,,,KBC2,FALSE,,,,,,,,,,,,,FALSE,,,\r\nGet your hardware,KBC-Willem.png,KBC-Animation.mp4,,,,,,,KBC4,FALSE,,,,,,,,,,,,,FALSE,,,"
                     .length
                 )
                 .map((e) => {
@@ -644,7 +644,7 @@
     2012: function (e, t, n) {
       var i = {
         "./Dragon.png": 593,
-        "./KBC-Animation.png": 1279,
+        "./test.png": 1279,
         "./KBC-Dance.png": 5367,
         "./KBC-Willem.png": 6627,
       };
@@ -692,7 +692,7 @@
     },
     5367: function (e, t, n) {
       "use strict";
-      e.exports = n.p + "img/KBC-Animation.5c5cbf31.png";
+      e.exports = n.p + "img/test.png";
     },
     6627: function (e, t, n) {
       "use strict";
