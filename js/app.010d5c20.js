@@ -688,7 +688,7 @@
     },
     1279: function (e, t, n) {
       "use strict";
-      e.exports = n.p + "img/playgrey.png";
+      e.exports = n.p + "img/teamscall.png";
     },
     5367: function (e, t, n) {
       "use strict";
@@ -696,7 +696,7 @@
     },
     6627: function (e, t, n) {
       "use strict";
-      e.exports = n.p + "img/KBC-Dance.718e0c19.png";
+      e.exports = n.p + "img/lockericon.png";
     },
   },
     t = {};
