@@ -134,3 +134,19 @@ body {
 .hungred-percent-height{
  height: 100% !important;
 }
+
+.kbc-style-button {
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  border-style: none;
+  background-color: #0097db;
+  width: 306.8px;
+  border-radius: 30px;
+  height: 50px;
+  position: absolute;
+  top: 3000px;
+  left: 967px;
+
+}
