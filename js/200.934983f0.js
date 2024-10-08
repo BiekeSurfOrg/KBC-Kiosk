@@ -974,11 +974,11 @@
     },
     4230: function (e, t, i) {
       "use strict";
-      e.exports = i.p + "media/KBC-Menu.752680d1.mp4";
+      e.exports = i.p + "media/KBC-Menu-Maarten.mp4";
     },
     56: function (e, t, i) {
       "use strict";
-      e.exports = i.p + "media/KBC-Menu.752680d1.mp4";
+      e.exports = i.p + "media/KBC-Menu-Maarten.mp4";
     },
   },
 ]);
