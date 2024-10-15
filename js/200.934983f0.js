@@ -972,11 +972,11 @@
     },
     4230: function (e, t, i) {
       "use strict";
-      e.exports = i.p + "media/M24119_TED_Karin_00_BACKGROUND_MENU_-100.mp4";
+      e.exports = i.p + "media/KBC-Menu.752680d1.mp4";
     },
     56: function (e, t, i) {
       "use strict";
-      e.exports = i.p + "media/M24119_TED_Karin_00_BACKGROUND_MENU_-100.mp4";
+      e.exports = i.p + "media/KBC-Menu.752680d1.mp4";
     },
   },
 ]);
