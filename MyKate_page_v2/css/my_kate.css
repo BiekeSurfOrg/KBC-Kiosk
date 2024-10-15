@@ -1,0 +1,172 @@
+:root {
+  --coin-blue: #2eb9ff;
+  --bg-color1: rgb(0 33 64);
+  --bg-color2: rgb(0 174 180);
+  --holopod-width: 2160px;
+  --holopod-height: 3840px;
+}
+
+@font-face {
+  font-family: 'MuseoSans';
+  src: url('../fonts/MuseoSans_500.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/gilroy-black.ttf') format('truetype');
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/gilroy-bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/gilroy-medium.ttf') format('truetype');
+  font-weight: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: var(--holopod-height);
+  width: var(--holopod-width);
+}
+
+h1,
+h2,
+h3,
+header,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.mk_main {
+  margin: 0;
+  padding: 250px 200px;
+  font-family: 'Gilroy', Open Sans;
+  /* background: radial-gradient(ellipse at 40% 60%, var(--bg-color1), var(--bg-color2)); */
+  /* background: radial-gradient( var(--bg-color1), var(--bg-color2)); */
+  background-image: url(../images/BG_SUPERHERO_VERTICAAL.png);
+  background-size: 100% 100%;
+
+  height: 100%;
+  font-size: 55px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.mk_header {
+  font-weight: 700;
+  font-size: 165px;
+}
+
+.mk_header_year {
+  font-weight: 800;
+  font-size: 210px;
+  /* margin-top: 20px; */
+}
+
+.mk_middle {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 300px 0;
+}
+
+.mk_deelnemen_vraag {
+  font-size: 80px;
+  font-weight: 800;
+}
+
+.mk_deelnemen_antwoord {
+  margin-top: 52px;
+  font-size: 65px;
+
+}
+
+.mk_mykate {
+  margin-top: 20px;
+}
+
+.mk_mykatelogo {
+  border-radius: 50px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 225px;
+  width: 720px;
+  background-image: url('../images/MyKate_dark_blue_Animated.gif');
+
+}
+
+.mk_div_screen {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 50px;
+  margin-top: 120px;
+  background-color: rgba(255, 255, 255, .98);
+  height: 1500px;
+  border-radius: 80px;
+  color: black;
+}
+
+.mk_div_user {
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 60px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 60px;
+}
+
+.mk_div_connect {
+  border-radius: 200px;
+  border: 3px solid rgba(0, 162, 237, .4);
+  padding: 30px 70px;
+  flex: 1 0 auto;
+  margin-right: 50px;
+  text-align: left;
+  background-color: white;
+}
+
+.mk_user_button {
+  border-radius: 100px;
+  border: 3px solid rgb(0 151 220);
+  background-color: rgb(0 151 220);
+  color: white;
+  padding: 30px 100px;
+}
+
+.mk_user_button_pressed {
+  background-color: rgb(0 75 110);
+
+}
+.mk_div_kate {
+  background-color: rgb(240 245 255);
+  width: 70%;
+  margin-left: auto;
+  padding: 100px 70px;
+  text-align: left;
+  color: rgb(37 64 99);
+  border-radius: 50px;
+}
+
+
+.mk_div_footer {
+  background-image: url('../images/CYBERBART_v01.png');
+  width: 100%;
+  height: 500px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}

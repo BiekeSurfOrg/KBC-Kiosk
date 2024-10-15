@@ -712,7 +712,9 @@
                     if(e.fields["ID"] == "KBC2"){
                         window.location.href = "slide-puzzle-master/index.html"
                     }
-
+                    if(e.fields["ID"] == "KBC1"){
+                      window.location.href = "MyKate_page_v2/index.html"
+                  }
 
                     if (e.fields["3D_Content"]) {
                       if (e.fields["3D_Content"].includes("autodesk?"))

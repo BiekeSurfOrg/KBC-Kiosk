@@ -692,7 +692,7 @@
       },
       5367: function (e, t, n) {
         "use strict";
-        e.exports = n.p + "img/M24119_TED_Karin_01_CLEAN.png";
+        e.exports = n.p + "img/security_bart_button.png";
       },
       6627: function (e, t, n) {
         "use strict";
