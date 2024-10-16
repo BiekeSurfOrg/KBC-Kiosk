@@ -67,6 +67,12 @@ p {
   font-size: 165px;
 }
 
+.back-arrow {
+  top: 200px;
+  left: 60px;
+  width: 120px;
+  position: absolute;
+}
 .mk_header_year {
   font-weight: 800;
   font-size: 210px;

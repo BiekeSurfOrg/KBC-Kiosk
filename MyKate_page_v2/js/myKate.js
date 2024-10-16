@@ -1,4 +1,6 @@
 
+const initialisedTime = Date.now()
+
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
@@ -56,6 +58,16 @@ function startTyping() {
     sleep(3500).then(() => { unhide('mk_div_kate')});
 }
 
+const chronJob = () => {
+    setTimeout(() => {
+      if (Date.now() - initialisedTime >= 120000) {
+        window.location.replace("../index.html");
+      } else {
+        chronJob();
+      }
+    }, 5000);
+  };
+
 init();
 sleep(1300).then(() => { unhide('mk_deelnemen_vraag') });
 sleep(2500).then(() => { unhide('mk_deelnemen_antwoord') });
@@ -63,4 +75,4 @@ sleep(3000).then(() => { unhide('mk_mykatelogo') });
 sleep(4500).then(() => { unhide('mk_div_screen') });
 sleep(5500).then(() => { startTyping() });
 
-
+chronJob()
