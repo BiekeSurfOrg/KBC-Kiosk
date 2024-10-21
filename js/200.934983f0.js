@@ -710,10 +710,10 @@
                   this.$nextTick(() => {
 
                     if(e.fields["ID"] == "KBC2"){
-                        window.location.href = "slide-puzzle-master/index.html"
+                      window.location.href = "MyKate_page_v2.1/index_english.html"
                     }
                     if(e.fields["ID"] == "KBC1"){
-                      window.location.href = "MyKate_page_v2/index.html"
+                      window.location.href = "MyKate_page_v2.1/index.html"
                   }
 
                     if (e.fields["3D_Content"]) {
