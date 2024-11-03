@@ -269,11 +269,11 @@
             }
             initSettings() {
               let e =
-                  "Title,Thumbnail,Content,3D_Content,is_screenshot_page,HTML,Order,Parent,Nested Children,ID,Loop_Video,Activation Vids Muted,Background Vids Muted,Feedback Videos,tilesPerPage,inactiveState.enabled,inactiveState.play_random_tile,inactiveState.screensaver,Screensaver Duration in Minutes,Screensaver Vids Muted,inactiveState.go_to_home_page,inactiveState.milliseconds,differentBGOnNested,feedbackPageEnabled,use_CSV,Border Color,Text Color\r\nKlik & Win ....,KBC-Dance.png,KBC-Dance.mp4,,,,,,,KBC1,FALSE,TRUE,TRUE,,8,TRUE,FALSE,TRUE,5,TRUE,FALSE,60000,TRUE,FALSE,TRUE,#00AEEF,#FFFFFF\r\nClick & Win ...,KBC-Dance.png,Dragon.mp4,,,,,,,KBC2,FALSE,,,,,,,,,,,,,FALSE,,,\r\nParty Content,KBC-Willem.png,KBC-Animation.mp4,,,,,,,KBC4,FALSE,,,,,,,,,,,,,FALSE,,,"
+                  "Title,Thumbnail,Content,3D_Content,is_screenshot_page,HTML,Order,Parent,Nested Children,ID,Loop_Video,Activation Vids Muted,Background Vids Muted,Feedback Videos,tilesPerPage,inactiveState.enabled,inactiveState.play_random_tile,inactiveState.screensaver,Screensaver Duration in Minutes,Screensaver Vids Muted,inactiveState.go_to_home_page,inactiveState.milliseconds,differentBGOnNested,feedbackPageEnabled,use_CSV,Border Color,Text Color\r\nQuestion Wim,KBC-Dance.png,KBC-Dance.mp4,,,,,,,KBC1,FALSE,TRUE,TRUE,,8,TRUE,FALSE,TRUE,5,TRUE,FALSE,60000,TRUE,FALSE,TRUE,#00AEEF,#FFFFFF\r\nQuestion Thomasz,Dragon.png,Dragon.mp4,,,,,,,KBC2,FALSE,,,,,,,,,,,,,FALSE,,,\r\nQuestion Steven,KBC-Willem.png,KBC-Animation.mp4,,,,,,,KBC4,FALSE,,,,,,,,,,,,,FALSE,,,"
                     .split("\r\n")[0]
                     .split(","),
                 t =
-                  "Title,Thumbnail,Content,3D_Content,is_screenshot_page,HTML,Order,Parent,Nested Children,ID,Loop_Video,Activation Vids Muted,Background Vids Muted,Feedback Videos,tilesPerPage,inactiveState.enabled,inactiveState.play_random_tile,inactiveState.screensaver,Screensaver Duration in Minutes,Screensaver Vids Muted,inactiveState.go_to_home_page,inactiveState.milliseconds,differentBGOnNested,feedbackPageEnabled,use_CSV,Border Color,Text Color\r\nKlik & Win ....,KBC-Dance.png,KBC-Dance.mp4,,,,,,,KBC1,FALSE,TRUE,TRUE,,8,TRUE,FALSE,TRUE,5,TRUE,FALSE,60000,TRUE,FALSE,TRUE,#00AEEF,#FFFFFF\r\nClick & Win ...,KBC-Dance.png,Dragon.mp4,,,,,,,KBC2,FALSE,,,,,,,,,,,,,FALSE,,,\r\nParty Content,KBC-Willem.png,KBC-Animation.mp4,,,,,,,KBC4,FALSE,,,,,,,,,,,,,FALSE,,,"
+                  "Title,Thumbnail,Content,3D_Content,is_screenshot_page,HTML,Order,Parent,Nested Children,ID,Loop_Video,Activation Vids Muted,Background Vids Muted,Feedback Videos,tilesPerPage,inactiveState.enabled,inactiveState.play_random_tile,inactiveState.screensaver,Screensaver Duration in Minutes,Screensaver Vids Muted,inactiveState.go_to_home_page,inactiveState.milliseconds,differentBGOnNested,feedbackPageEnabled,use_CSV,Border Color,Text Color\r\nQuestion Wim,KBC-Dance.png,KBC-Dance.mp4,,,,,,,KBC1,FALSE,TRUE,TRUE,,8,TRUE,FALSE,TRUE,5,TRUE,FALSE,60000,TRUE,FALSE,TRUE,#00AEEF,#FFFFFF\r\nQuestion Thomasz,Dragon.png,Dragon.mp4,,,,,,,KBC2,FALSE,,,,,,,,,,,,,FALSE,,,\r\nQuestion Steven,KBC-Willem.png,KBC-Animation.mp4,,,,,,,KBC4,FALSE,,,,,,,,,,,,,FALSE,,,"
                     .split("\r\n")[1]
                     .split(",");
               return new Promise((n) => {
@@ -320,17 +320,17 @@
             init() {
               return new Promise((e) => {
                 let t =
-                    "Title,Thumbnail,Content,3D_Content,is_screenshot_page,HTML,Order,Parent,Nested Children,ID,Loop_Video,Activation Vids Muted,Background Vids Muted,Feedback Videos,tilesPerPage,inactiveState.enabled,inactiveState.play_random_tile,inactiveState.screensaver,Screensaver Duration in Minutes,Screensaver Vids Muted,inactiveState.go_to_home_page,inactiveState.milliseconds,differentBGOnNested,feedbackPageEnabled,use_CSV,Border Color,Text Color\r\nKlik & Win ....,KBC-Dance.png,KBC-Dance.mp4,,,,,,,KBC1,FALSE,TRUE,TRUE,,8,TRUE,FALSE,TRUE,5,TRUE,FALSE,60000,TRUE,FALSE,TRUE,#00AEEF,#FFFFFF\r\n ,Dragon.png,Dragon.mp4,,,,,,,KBC2,FALSE,,,,,,,,,,,,,FALSE,,,\r\nParty Content,KBC-Willem.png,KBC-Animation.mp4,,,,,,,KBC4,FALSE,,,,,,,,,,,,,FALSE,,,"
+                    "Title,Thumbnail,Content,3D_Content,is_screenshot_page,HTML,Order,Parent,Nested Children,ID,Loop_Video,Activation Vids Muted,Background Vids Muted,Feedback Videos,tilesPerPage,inactiveState.enabled,inactiveState.play_random_tile,inactiveState.screensaver,Screensaver Duration in Minutes,Screensaver Vids Muted,inactiveState.go_to_home_page,inactiveState.milliseconds,differentBGOnNested,feedbackPageEnabled,use_CSV,Border Color,Text Color\r\nQuestion Wim,KBC-Dance.png,KBC-Dance.mp4,,,,,,,KBC1,FALSE,TRUE,TRUE,,8,TRUE,FALSE,TRUE,5,TRUE,FALSE,60000,TRUE,FALSE,TRUE,#00AEEF,#FFFFFF\r\n ,Dragon.png,Dragon.mp4,,,,,,,KBC2,FALSE,,,,,,,,,,,,,FALSE,,,\r\nQuestion Steven,KBC-Willem.png,KBC-Animation.mp4,,,,,,,KBC4,FALSE,,,,,,,,,,,,,FALSE,,,"
                       .split("\r\n")[0]
                       .split(","),
                   o =
-                    "Title,Thumbnail,Content,3D_Content,is_screenshot_page,HTML,Order,Parent,Nested Children,ID,Loop_Video,Activation Vids Muted,Background Vids Muted,Feedback Videos,tilesPerPage,inactiveState.enabled,inactiveState.play_random_tile,inactiveState.screensaver,Screensaver Duration in Minutes,Screensaver Vids Muted,inactiveState.go_to_home_page,inactiveState.milliseconds,differentBGOnNested,feedbackPageEnabled,use_CSV,Border Color,Text Color\r\nKlik & Win ....,KBC-Dance.png,KBC-Dance.mp4,,,,,,,KBC1,FALSE,TRUE,TRUE,,8,TRUE,FALSE,TRUE,5,TRUE,FALSE,60000,TRUE,FALSE,TRUE,#00AEEF,#FFFFFF\r\nClick & Win ...,KBC-Dance.png,Dragon.mp4,,,,,,,KBC2,FALSE,,,,,,,,,,,,,FALSE,,,\r\nParty Content,KBC-Willem.png,KBC-Animation.mp4,,,,,,,KBC4,FALSE,,,,,,,,,,,,,FALSE,,,".split(
+                    "Title,Thumbnail,Content,3D_Content,is_screenshot_page,HTML,Order,Parent,Nested Children,ID,Loop_Video,Activation Vids Muted,Background Vids Muted,Feedback Videos,tilesPerPage,inactiveState.enabled,inactiveState.play_random_tile,inactiveState.screensaver,Screensaver Duration in Minutes,Screensaver Vids Muted,inactiveState.go_to_home_page,inactiveState.milliseconds,differentBGOnNested,feedbackPageEnabled,use_CSV,Border Color,Text Color\r\nQuestion Wim,KBC-Dance.png,KBC-Dance.mp4,,,,,,,KBC1,FALSE,TRUE,TRUE,,8,TRUE,FALSE,TRUE,5,TRUE,FALSE,60000,TRUE,FALSE,TRUE,#00AEEF,#FFFFFF\r\nQuestion Thomasz,Dragon.png,Dragon.mp4,,,,,,,KBC2,FALSE,,,,,,,,,,,,,FALSE,,,\r\nQuestion Steven,KBC-Willem.png,KBC-Animation.mp4,,,,,,,KBC4,FALSE,,,,,,,,,,,,,FALSE,,,".split(
                       "\r\n"
                     );
                 (i.ZP.prototype.$videos = o
                   .splice(
                     1,
-                    "Title,Thumbnail,Content,3D_Content,is_screenshot_page,HTML,Order,Parent,Nested Children,ID,Loop_Video,Activation Vids Muted,Background Vids Muted,Feedback Videos,tilesPerPage,inactiveState.enabled,inactiveState.play_random_tile,inactiveState.screensaver,Screensaver Duration in Minutes,Screensaver Vids Muted,inactiveState.go_to_home_page,inactiveState.milliseconds,differentBGOnNested,feedbackPageEnabled,use_CSV,Border Color,Text Color\r\nKlik & Win ....,KBC-Dance.png,KBC-Dance.mp4,,,,,,,KBC1,FALSE,TRUE,TRUE,,8,TRUE,FALSE,TRUE,5,TRUE,FALSE,60000,TRUE,FALSE,TRUE,#00AEEF,#FFFFFF\r\nClick & Win ...,KBC-Dance.png,Dragon.mp4,,,,,,,KBC2,FALSE,,,,,,,,,,,,,FALSE,,,\r\nParty Content,KBC-Willem.png,KBC-Animation.mp4,,,,,,,KBC4,FALSE,,,,,,,,,,,,,FALSE,,,"
+                    "Title,Thumbnail,Content,3D_Content,is_screenshot_page,HTML,Order,Parent,Nested Children,ID,Loop_Video,Activation Vids Muted,Background Vids Muted,Feedback Videos,tilesPerPage,inactiveState.enabled,inactiveState.play_random_tile,inactiveState.screensaver,Screensaver Duration in Minutes,Screensaver Vids Muted,inactiveState.go_to_home_page,inactiveState.milliseconds,differentBGOnNested,feedbackPageEnabled,use_CSV,Border Color,Text Color\r\nQuestion Wim,KBC-Dance.png,KBC-Dance.mp4,,,,,,,KBC1,FALSE,TRUE,TRUE,,8,TRUE,FALSE,TRUE,5,TRUE,FALSE,60000,TRUE,FALSE,TRUE,#00AEEF,#FFFFFF\r\nQuestion Thomasz,Dragon.png,Dragon.mp4,,,,,,,KBC2,FALSE,,,,,,,,,,,,,FALSE,,,\r\nQuestion Steven,KBC-Willem.png,KBC-Animation.mp4,,,,,,,KBC4,FALSE,,,,,,,,,,,,,FALSE,,,"
                       .length
                   )
                   .map((e) => {
@@ -666,37 +666,43 @@
           (e.exports = o),
           (o.id = 2012);
       },
+      //Second tile video
       4543: function (e, t, n) {
         "use strict";
-        e.exports = n.p + "media/Dragon.0e4697b4.mp4";
+        e.exports = n.p + "media/M24236_TOMASZ_VERTICAL.mp4";
       },
+      //Third tile video
       5099: function (e, t, n) {
         "use strict";
-        e.exports = n.p + "media/KBC-Dance.6bd71aec.mp4";
+        e.exports = n.p + "media/M24236_STEVEN_VERTICAL.mp4";
       },
+      //First tile video
       3342: function (e, t, n) {
         "use strict";
-        e.exports = n.p + "media/M24119_TED_Karin_03_WINNER_BULGARIA_2160x3840_holo_-100.mp4";
+        e.exports = n.p + "media/M24236_WIM_VERTICAL.mp4";
       },
       4721: function (e, t, n) {
         "use strict";
         e.exports = n.p + "media/KBC-Willem.bd4fb855.mp4";
       },
+      //Second tile Image
       593: function (e, t, n) {
         "use strict";
-        e.exports = n.p + "img/ecosphere_thanks_tile_2.png";
+        e.exports = n.p + "img/Button-2.png";
       },
       1279: function (e, t, n) {
         "use strict";
-        e.exports = n.p + "img/playgrey.png";
+        e.exports = n.p + "img/Button-2.png";
       },
+      //First time Image
       5367: function (e, t, n) {
         "use strict";
-        e.exports = n.p + "img/Cyber_Bart_Button_Grey.png";
+        e.exports = n.p + "img/Button-1.png";
       },
+      //Third tile image
       6627: function (e, t, n) {
         "use strict";
-        e.exports = n.p + "img/KBC-Dance.718e0c19.png";
+        e.exports = n.p + "img/Button-3.png";
       },
     },
     t = {};
