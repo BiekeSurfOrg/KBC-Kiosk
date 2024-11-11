@@ -674,7 +674,7 @@
       //Third tile video
       5099: function (e, t, n) {
         "use strict";
-        e.exports = n.p + "media/M24236_STEVEN_VERTICAL.mp4";
+        e.exports = n.p + "media/KBC-Dance.6bd71aec.mp4";
       },
       //First tile video
       3342: function (e, t, n) {
@@ -688,7 +688,7 @@
       //Second tile Image
       593: function (e, t, n) {
         "use strict";
-        e.exports = n.p + "img/Button-2.png";
+        e.exports = n.p + "img/Build_tumb.png";
       },
       1279: function (e, t, n) {
         "use strict";
@@ -697,12 +697,12 @@
       //First time Image
       5367: function (e, t, n) {
         "use strict";
-        e.exports = n.p + "img/Button-1.png";
+        e.exports = n.p + "img/KBC-Willem.395effc7.png";
       },
       //Third tile image
       6627: function (e, t, n) {
         "use strict";
-        e.exports = n.p + "img/Button-3.png";
+        e.exports = n.p + "img/KBC-Dance.718e0c19.png";
       },
     },
     t = {};

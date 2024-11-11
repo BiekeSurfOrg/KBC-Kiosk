@@ -266,9 +266,10 @@
         (e.exports = s),
         (s.id = 2205);
     },
+    //screensaver video
     1119: function (e, t, i) {
       "use strict";
-      e.exports = i.p + "media/KBC-Screensaver.mp4";
+      e.exports = i.p + "media/M24329 CybersecurityHolopod_SCREENSAVER_4Mb_vbr01.mp4";
     },
   },
 ]);

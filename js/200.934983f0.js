@@ -709,9 +709,9 @@
                   (this.$refs.bg_video.pause(),
                   this.$nextTick(() => {
                   //router config
-                  //   if(e.fields["ID"] == "KBC2"){
-                  //     window.location.href = "MyKate_page_v2.2/index_english.html"
-                  //   }
+                    if(e.fields["ID"] == "KBC2"){
+                      window.location.href = "../slide-puzzle-master/index.html"
+                    }
                   //   if(e.fields["ID"] == "KBC1"){
                   //     window.location.href = "MyKate_page_v2.2/index.html"
                   // }
@@ -973,7 +973,7 @@
     //Main screen content
     4230: function (e, t, i) {
       "use strict";
-      e.exports = i.p + "media/M24346_CHRISTINE_HOLOPOD_MAIN_SCREEN_VERTICAL.mp4";
+      e.exports = i.p + "media/KBC-Menu.752680d1.mp4";
     },
     56: function (e, t, i) {
       "use strict";
