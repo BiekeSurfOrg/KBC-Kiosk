@@ -688,7 +688,7 @@
       //Second tile Image
       593: function (e, t, n) {
         "use strict";
-        e.exports = n.p + "img/Build_tumb.png";
+        e.exports = n.p + "img/playgrey.png";
       },
       1279: function (e, t, n) {
         "use strict";

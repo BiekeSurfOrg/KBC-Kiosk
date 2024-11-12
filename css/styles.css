@@ -19,7 +19,7 @@ body {
 
 .main-content-schedule{
   font-size: 42px;
-  width: 55%;
+  width: 70%;
   height: 100%;
   font-family: sans-serif;
 }
@@ -100,4 +100,23 @@ body {
 
 .width-1500{
   width: 1500px;
+}
+
+.profile-image{
+  width: 250px;
+}
+.image-text-placeholder{
+  gap: 50px;
+  display: flex;
+  align-items: center;
+}
+.image-placeholder{
+  min-width: 300px;
+}
+ul > li{
+  list-style: none;
+  margin-bottom: 50px;
+}
+.text-description{
+  width: 1152.090px;
 }
