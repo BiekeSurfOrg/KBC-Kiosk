@@ -269,7 +269,7 @@
     //screensaver video
     1119: function (e, t, i) {
       "use strict";
-      e.exports = i.p + "media/24321_HOLOPOD_SCREENSAVER_Holopod_2160x3840_5000.mp4";
+      e.exports = i.p + "media/NEW_HOLOPOD_SCREENSAVER_Holopod_1_2160x3840_5000.mp4";
     },
   },
 ]);
