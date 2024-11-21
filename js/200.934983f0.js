@@ -181,12 +181,13 @@
                       ]
                     ),
                   ]),
-                  t("router-link", {
-                    attrs: {
-                      id: "screensaver",
-                      to: "/screensavervideo#00-ScreenSaver",
-                    },
-                  }),
+                  // removed the screensaver 
+                  // t("router-link", {
+                  //   attrs: {
+                  //     id: "screensaver",
+                  //     to: "/screensavervideo#00-ScreenSaver",
+                  //   },
+                  // }),
                   t(
                     "div",
                     {
@@ -529,32 +530,32 @@
             inactiveState: { type: Object, default: () => {} },
           },
           watch: {
-            timeElapsed: {
-              handler(e) {
-                e &&
-                  (this.timesTimeElapsed++,
-                  this.inactiveState.screensaver &&
-                    document.getElementById("screensaver").click(),
-                  this.inactiveState.play_random_tile &&
-                    this.$refs[
-                      `vid_${[
-                        Math.floor(
-                          Math.random() * this.activeDirectory[0].length - 1
-                        ),
-                      ]}`
-                    ][0].$el.click(),
-                  this.inactiveState.go_to_home_page &&
-                    document.getElementById("top_side_nav_right") &&
-                    (clearInterval(this.timer),
-                    this.$store.commit(
-                      "setActiveDirectory",
-                      this.homeDirectory
-                    ),
-                    this.$store.commit("setNestedRank", 0),
-                    document.getElementById("resetAnalytics") &&
-                      document.getElementById("resetAnalytics").click()));
-              },
-            },
+            // timeElapsed: {
+            //   handler(e) {
+            //     e &&
+            //       (this.timesTimeElapsed++,
+            //       this.inactiveState.screensaver &&
+            //         document.getElementById("screensaver").click(),
+            //       this.inactiveState.play_random_tile &&
+            //         this.$refs[
+            //           `vid_${[
+            //             Math.floor(
+            //               Math.random() * this.activeDirectory[0].length - 1
+            //             ),
+            //           ]}`
+            //         ][0].$el.click(),
+            //       this.inactiveState.go_to_home_page &&
+            //         document.getElementById("top_side_nav_right") &&
+            //         (clearInterval(this.timer),
+            //         this.$store.commit(
+            //           "setActiveDirectory",
+            //           this.homeDirectory
+            //         ),
+            //         this.$store.commit("setNestedRank", 0),
+            //         document.getElementById("resetAnalytics") &&
+            //           document.getElementById("resetAnalytics").click()));
+            //   },
+            // },
             carouselPos: {
               handler() {
                 this.$nextTick(() => {
