@@ -702,7 +702,7 @@
       //Third tile image
       6627: function (e, t, n) {
         "use strict";
-        e.exports = n.p + "img/Frans_DANCE.png";
+        e.exports = n.p + "img/fransdance.gif";
       },
     },
     t = {};
