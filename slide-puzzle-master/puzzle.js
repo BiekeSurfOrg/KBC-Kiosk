@@ -10,6 +10,8 @@ let gameWindow;
 
 let shuffleButton;
 
+let hiddenButton;
+
 let lastInteractedWith = Date.now();
 
 const fiftyVariants = [];
@@ -18,7 +20,14 @@ const start = Date.now();
 
 const timeOut = 120000;
 
+const isFriday = false;
+
+const lockerURL = "http://10.11.12.241:8080/open/"
+const apiKey = "azk_42163e54-49d8-49b3-89c6-96a734e73daa"
+
 const initialize = () => {
+  hiddenButton = document.getElementById("hidden-button");
+  hiddenButton.addEventListener('click',(openAllLockers))
   generateVariants();
   chronJob();
   renderBoard();
@@ -82,7 +91,7 @@ const isSolvable = (array) => {
 };
 
 const shuffleArray = () => {
-  const array = [1, 2, 3, 4, 0, 6, 7, 8, 9];
+  const array = [1, 2, 3, 0, 4, 6, 7, 8, 9];
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [array[i], array[j]] = [array[j], array[i]];
@@ -202,6 +211,40 @@ function dragEnd() {
     document.getElementById("turns").innerText = turns;
   }
   if (isComplete()) {
-    document.getElementById("1-1").src = "5-1.jpg";
+    if(isFriday){
+      document.getElementById("1-1").src = "5-2.jpg";
+      openOneLocker();
+    }
+    if(!isFriday){
+      document.getElementById("1-1").src = "5-1.jpg";
+    }
   }
+}
+
+function openOneLocker(){
+
+
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", lockerURL + lockerId, true);
+    xhr.setRequestHeader('accept', '*/*');
+    xhr.setRequestHeader('X-API-KEY', apiKey);
+    xhr.setRequestHeader("Access-Control-Allow-Origin", "*");
+    xhr.send(JSON.stringify({
+    }));
+console.log("open one locker")
+}
+  
+
+
+function openAllLockers(){
+
+  var xhr = new XMLHttpRequest();
+  xhr.open("GET", lockerURL + lockerId, true);
+  xhr.setRequestHeader('accept', '*/*');
+  xhr.setRequestHeader('X-API-KEY', apiKey);
+  xhr.setRequestHeader("Access-Control-Allow-Origin", "*");
+  xhr.send(JSON.stringify({
+  }));
+  
+  console.log("open lockers")
 }

@@ -714,7 +714,7 @@
                       window.location.href = "../slide-puzzle-master/index.html"
                     }
                     if(e.fields["ID"] == "KBC1"){
-                      window.location.href = "../schedule.html"
+                      window.location.href = "../soul-integration.html"
                   }
 
                     if (e.fields["3D_Content"]) {

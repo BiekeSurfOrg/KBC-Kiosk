@@ -45,8 +45,18 @@ body {
   }
 
   .banner {
+    position: relative;
     margin-top: 20px;
     width: 60vw;
+  }
+  .hidden-button{
+    position: absolute;
+    top: 250px;
+    right: 450px;
+    height: 200px;
+    width: 200px;
+    border: none;
+    background-color: transparent;
   }
 
   .main-content {
