@@ -674,12 +674,12 @@
       //Third tile video
       5099: function (e, t, n) {
         "use strict";
-        e.exports = n.p + "media/24321_HOLOPOD_DANCE_v02_Holopod_2160x3840_13000.mp4";
+        e.exports = n.p + "media/Kerstpod_2024_DANCE_Holopod_2160x3840.mp4";
       },
       //First tile video
       3342: function (e, t, n) {
         "use strict";
-        e.exports = n.p + "media/M24236_WIM_VERTICAL.mp4";
+        e.exports = n.p + "media/Kerstpod_2024_INFLATABLE_LOOP_Holopod_2160x3840.mp4";
       },
       4721: function (e, t, n) {
         "use strict";
@@ -688,7 +688,7 @@
       //Second tile Image
       593: function (e, t, n) {
         "use strict";
-        e.exports = n.p + "img/playgrey.png";
+        e.exports = n.p + "img/button2.png";
       },
       1279: function (e, t, n) {
         "use strict";
@@ -697,12 +697,12 @@
       //First time Image
       5367: function (e, t, n) {
         "use strict";
-        e.exports = n.p + "img/KBC-Willem.395effc7.png";
+        e.exports = n.p + "img/button1.png";
       },
       //Third tile image
       6627: function (e, t, n) {
         "use strict";
-        e.exports = n.p + "img/fransdance.gif";
+        e.exports = n.p + "img/button3.png";
       },
     },
     t = {};

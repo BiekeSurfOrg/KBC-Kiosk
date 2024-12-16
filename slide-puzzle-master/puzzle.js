@@ -55,7 +55,7 @@ const renderBoard = () => {
     for (let c = 0; c < columns; c++) {
       let tile = document.createElement("img");
       tile.id = r.toString() + "-" + c.toString();
-      tile.src = variant.shift() + ".jpg";
+      tile.src = variant.shift() + ".png";
 
       tile.addEventListener("touchstart", dragStart);
       tile.addEventListener("touchstart", interaction);
@@ -126,13 +126,13 @@ function isComplete() {
     const element = tiles[i];
     const tileNumber = element.attributes.src.nodeValue;
     if (currentPoint === 5) {
-      if (!tileNumber.includes(0 + ".jpg")) {
+      if (!tileNumber.includes(0 + ".png")) {
         return false;
       }
       currentPoint++;
       continue;
     }
-    if (!tileNumber.includes(currentPoint + ".jpg")) {
+    if (!tileNumber.includes(currentPoint + ".png")) {
       return false;
     }
     currentPoint++;
@@ -180,7 +180,7 @@ function dragDrop(e) {
 }
 
 function dragEnd() {
-  if (!otherTile.src.includes("0.jpg")) {
+  if (!otherTile.src.includes("0.png")) {
     return;
   }
 
@@ -212,20 +212,19 @@ function dragEnd() {
   }
   if (isComplete()) {
     if(isFriday){
-      document.getElementById("1-1").src = "5-2.jpg";
+      document.getElementById("1-1").src = "5-2.png";
       openOneLocker();
     }
     if(!isFriday){
-      document.getElementById("1-1").src = "5-1.jpg";
+      document.getElementById("1-1").src = "5-1.png";
     }
   }
 }
 
 function openOneLocker(){
-
-
+  const lockerNumber = (Math.floor(Math.random()*4)+1)
     var xhr = new XMLHttpRequest();
-    xhr.open("GET", lockerURL + lockerId, true);
+    xhr.open("GET", lockerURL + lockerNumber, true);
     xhr.setRequestHeader('accept', '*/*');
     xhr.setRequestHeader('X-API-KEY', apiKey);
     xhr.setRequestHeader("Access-Control-Allow-Origin", "*");
@@ -239,12 +238,12 @@ console.log("open one locker")
 function openAllLockers(){
 
   var xhr = new XMLHttpRequest();
-  xhr.open("GET", lockerURL + lockerId, true);
+  xhr.open("GET", lockerURL + "/all", true);
   xhr.setRequestHeader('accept', '*/*');
   xhr.setRequestHeader('X-API-KEY', apiKey);
   xhr.setRequestHeader("Access-Control-Allow-Origin", "*");
   xhr.send(JSON.stringify({
   }));
-  
+
   console.log("open lockers")
 }

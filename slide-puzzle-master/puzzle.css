@@ -38,6 +38,7 @@ body {
   .layout {
     width: 100vw;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     align-items: center;
     gap: 200px;

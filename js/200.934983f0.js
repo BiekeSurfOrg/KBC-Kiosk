@@ -713,9 +713,9 @@
                     if(e.fields["ID"] == "KBC2"){
                       window.location.href = "../slide-puzzle-master/index.html"
                     }
-                    if(e.fields["ID"] == "KBC1"){
-                      window.location.href = "../soul-integration.html"
-                  }
+                  //   if(e.fields["ID"] == "KBC1"){
+                  //     window.location.href = "../soul-integration.html"
+                  // }
 
                     if (e.fields["3D_Content"]) {
                       if (e.fields["3D_Content"].includes("autodesk?"))
@@ -974,7 +974,7 @@
     //Main screen content
     4230: function (e, t, i) {
       "use strict";
-      e.exports = i.p + "media/Holopod_Menu_Frans.mp4";
+      e.exports = i.p + "media/Kerstpod_2024_BKG_LOOP_Holopod_2160x3840.mp4";
     },
     56: function (e, t, i) {
       "use strict";
