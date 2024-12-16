@@ -47,7 +47,10 @@ body {
 
   .banner {
     position: relative;
-    margin-top: 20px;
+    width: 100vw;
+  }
+
+  .footer{
     width: 100vw;
   }
   .hidden-button{
