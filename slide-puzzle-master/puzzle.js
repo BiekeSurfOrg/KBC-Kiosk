@@ -22,7 +22,7 @@ const timeOut = 120000;
 
 const isFriday = false;
 
-const lockerURL = "http://10.11.12.241:8080/open/"
+const lockerURL = "http://10.11.12.45:8080/open/"
 const apiKey = "azk_42163e54-49d8-49b3-89c6-96a734e73daa"
 
 const initialize = () => {
