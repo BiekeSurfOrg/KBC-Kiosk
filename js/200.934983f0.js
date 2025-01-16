@@ -974,7 +974,7 @@
     //Main screen content
     4230: function (e, t, i) {
       "use strict";
-      e.exports = i.p + "media/Kerstpod_2024_BKG_LOOP_Holopod_2160x3840.mp4";
+      e.exports = i.p + "media/Holopod_Menu_Frans.mp4";
     },
     56: function (e, t, i) {
       "use strict";

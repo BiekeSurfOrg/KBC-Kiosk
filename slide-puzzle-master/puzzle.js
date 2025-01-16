@@ -55,7 +55,7 @@ const renderBoard = () => {
     for (let c = 0; c < columns; c++) {
       let tile = document.createElement("img");
       tile.id = r.toString() + "-" + c.toString();
-      tile.src = variant.shift() + ".png";
+      tile.src = variant.shift() + ".jpg";
 
       tile.addEventListener("touchstart", dragStart);
       tile.addEventListener("touchstart", interaction);
@@ -126,13 +126,13 @@ function isComplete() {
     const element = tiles[i];
     const tileNumber = element.attributes.src.nodeValue;
     if (currentPoint === 5) {
-      if (!tileNumber.includes(0 + ".png")) {
+      if (!tileNumber.includes(0 + ".jpg")) {
         return false;
       }
       currentPoint++;
       continue;
     }
-    if (!tileNumber.includes(currentPoint + ".png")) {
+    if (!tileNumber.includes(currentPoint + ".jpg")) {
       return false;
     }
     currentPoint++;
@@ -180,7 +180,7 @@ function dragDrop(e) {
 }
 
 function dragEnd() {
-  if (!otherTile.src.includes("0.png")) {
+  if (!otherTile.src.includes("0.jpg")) {
     return;
   }
 
@@ -212,11 +212,11 @@ function dragEnd() {
   }
   if (isComplete()) {
     if(isFriday){
-      document.getElementById("1-1").src = "5-2.png";
+      document.getElementById("1-1").src = "5-2.jpg";
       openOneLocker();
     }
     if(!isFriday){
-      document.getElementById("1-1").src = "5-1.png";
+      document.getElementById("1-1").src = "5-1.jpg";
     }
   }
 }
